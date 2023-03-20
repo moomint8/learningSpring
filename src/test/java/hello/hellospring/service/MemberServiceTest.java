@@ -12,6 +12,8 @@ import java.util.Optional;
 import static org.assertj.core.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.*;
 
+// 순수한 단위 테스트(스프링 컨테이너 없이)를 하는 것이 실행 시간이 훨씬 빠름.
+// 되도록 테스트는 스프링 컨테이너 없이 단위를 최대한 작게 하는 것이 대부분 좋음.
 class MemberServiceTest {
 
     MemberService memberService;
